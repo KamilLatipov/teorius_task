@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main class="main">
+    <section class="stop">
+      <div class="stop__header">
+        <img class="stop__arrow" src="img/arrow.png" width="25px" height="47px"/>
+        <p class="stop__title">Остановка</p>
+        <img class="stop__on" src="img/button.png"/>
+      </div>
+      <div class="stop__main">
+        <ul class="stop__list">
+          <li class="stop__item" onclick="changeActive(this)">
+            <p class="stop__name">Козья слобода</p>
+            <p class="stop__number">66,6</p>
+          </li>
+          <li class="stop__item active" onclick="changeActive(this)">
+            <p class="stop__name">Кремлевская</p>
+            <p class="stop__number">56</p>
+          </li>
+          <li class="stop__item" onclick="changeActive(this)">
+            <p class="stop__name">Площадь тукая</p>
+            <p class="stop__number">34,4</p>
+          </li>
+          <li class="stop__item" onclick="changeActive(this)">
+            <p class="stop__name">Суконная слобода</p>
+            <p class="stop__number">87,1</p>
+          </li>
+          <li class="stop__item" onclick="changeActive(this)">
+            <p class="stop__name">Ометьево</p>
+            <p class="stop__number">67,2</p>
+          </li>
+        </ul>
+      </div>
+      <div class="stop__button">
+        <p class="stop_button-text">
+          Поехали
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
